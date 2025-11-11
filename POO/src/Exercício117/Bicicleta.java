@@ -1,4 +1,4 @@
-package Exercicio117;
+package Exercício117;
 
 public class Bicicleta extends Transporte {
         public String mover() {

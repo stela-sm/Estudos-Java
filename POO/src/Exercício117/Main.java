@@ -1,4 +1,4 @@
-package Exercicio117;
+package Exercício117;
 
 /* Enunciado:
 
