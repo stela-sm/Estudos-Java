@@ -11,11 +11,13 @@ public class FuncionarioPJ extends Funcionario {
         super.setMatricula(matricula);
     }
 
+    @Override
     public double calcularSalario(){
         return this.horas_trabalhadas * this.valor_hora;
 
     }
 
+    @Override
     public String toString() {
         return "Nome: " + super.getNome()
                 +

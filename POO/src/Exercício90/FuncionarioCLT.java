@@ -9,10 +9,12 @@ public class FuncionarioCLT extends Funcionario{
     super.setMatricula(matricula);
    }
 
+   @Override
    public double calcularSalario(){
     return this.salario;
    }
 
+   @Override
    public String toString(){
     return 
     "Nome: " + super.getNome()
